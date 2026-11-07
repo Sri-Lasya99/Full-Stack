@@ -1,0 +1,14 @@
+{
+  "name": "ques2-valkey-cache",
+  "version": "1.0.0",
+  "description": "Express API with Valkey/Redis caching and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.4.0"
+  }
+}

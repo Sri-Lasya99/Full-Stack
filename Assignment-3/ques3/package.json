@@ -1,0 +1,17 @@
+{
+  "name": "ques3-microservices-jwt",
+  "version": "1.0.0",
+  "description": "Microservices application with Student Service, Course Service, and JWT-authenticated API Gateway",
+  "main": "startAll.js",
+  "scripts": {
+    "start": "node startAll.js",
+    "gateway": "node gateway.js",
+    "student": "node studentService.js",
+    "course": "node courseService.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
